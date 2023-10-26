@@ -15,12 +15,14 @@
 
 2. Установите необходимые библиотеки Python:
 
-### pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 3. Запустите скрипт с желаемой максимальной длиной и укажите путь к HTML-файлу для обработки:
 
-### python split_msg.py --max-len=3072 /путь/к/вашему/input.html
+   ```bash
+   python split_msg.py --max-len=3072 /путь/к/вашему/input.html
 
 Скрипт разделит HTML-сообщение и отобразит фрагменты.
 
